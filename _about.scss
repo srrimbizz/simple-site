@@ -1,0 +1,155 @@
+.page-about {
+
+	.about {
+		max-width: 1000px;
+		display: flex;
+		margin: 0 auto;
+		.left {
+			padding-top: 80px;
+			width: 30%;
+			cursor: pointer;
+			h2 {
+				margin-left: 40px;
+				font-weight: 400;
+				color: #00746b;
+				margin-bottom: 0;
+			}
+			ul {
+				list-style: none;
+			}
+			li {
+				padding: 5px 0 10px;
+				font-weight: 600;
+		    font-style: normal;
+		    font-size: 14px;
+		    letter-spacing: 2px;
+		    text-transform: uppercase;
+		    &:hover, &:focus {
+		    	color: black;
+		    }
+			}
+			@media (max-width: 768px) {
+		    	display: none;
+		    }
+
+		}
+		.right{
+			width: 70%;
+			padding-top: 20px;
+			padding-right: 30px;
+			.our-mission {
+				border-bottom: 1px solid #ddd;
+				p {
+					padding: 60px 0 30px 0;
+				}
+				h2 {
+					font-family: EB Garamond;
+					font-weight: 400;
+					padding-bottom: 30px;
+					font-size: 32px;
+				}
+				h1 {
+					text-transform: uppercase;
+					font-size: 24px;
+					font-weight: 600;
+					letter-spacing: 2px;
+				}
+				h6 {
+					font-family: Raleway;
+					font-style: normal;
+					font-size: 14px;
+					line-height: 28px;
+					padding-bottom: 50px;
+					font-weight: 400;
+				}
+
+			}
+
+			.quote {
+				padding: 60px 0 60px 0;
+				text-align: center;
+				border-bottom: 1px solid #ddd;
+				span {
+					font-size: 80px;
+					color: #ddd;
+				}
+			}
+
+			h3 {
+				font-family: Raleway;
+				font-size: 30px;
+				font-weight: 400;
+				padding-top: 30px;
+				line-height: 20px;
+			}
+
+			.what-weve-achieved {
+				display: flex;
+				width: 100%;
+				padding-bottom: 60px;
+				li {
+					line-height: 30px;
+					font-family: EB Garamond;
+					font-size: 18px;
+					font-weight: 600;
+				}
+				.achieve-left {
+					margin-right: 7px;
+				}
+				.achieve-right {
+					margin-left: 7px;
+				}
+			}
+			@media(max-width: 768px) {
+					width: 100%;
+					padding: 0 20px;
+				}
+				.our-mission {
+				border-bottom: 1px solid #ddd;
+				p {
+					padding: 30px 0 10px 0;
+				}
+				h2 {
+					font-weight: 400;
+					padding-bottom: 10px;
+					font-size: 16px;
+				}
+				h1 {
+					text-transform: uppercase;
+					font-size: 16px;
+					font-weight: 600;
+					letter-spacing: 2px;
+				}
+				h6 {
+					font-size: 13px;
+					line-height: 18px;
+					padding-bottom: 10px;
+				}
+			}
+			.quote {
+				padding: 10px 0;
+				text-align: center;
+				border-bottom: 1px solid #ddd;
+				span {
+					font-size: 20px;
+					color: #ddd;
+				}
+			}
+
+			h3 {
+				font-size: 18px;
+				padding-top: 10px;
+			}
+
+			.what-weve-achieved {
+				display: block;
+				width: 100%;
+				li {
+					font-size: 15px;
+					font-weight: 400;
+				}
+			}
+		}
+
+	}
+}

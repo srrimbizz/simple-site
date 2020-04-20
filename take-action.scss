@@ -1,0 +1,80 @@
+.page-take-action {
+
+	.difference {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0 30px;
+		h1 {
+			font-family: EB Garamond;
+			font-weight: 400;
+			padding: 60px 0;
+		}
+		@media (max-width: 768px) {
+			padding: 10px 10px;
+			text-align: center;
+			h1 {
+				font-size: 18px;
+				line-height: 24px;
+				padding: 10px;
+				margin: 0;
+			}
+		}
+	}
+
+	.donate-word {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		text-align: center,;
+		padding: 0 0 90px 0;
+		text-align: center;
+		.big-button {
+			padding: 10px 30px;
+			border-radius: 30px;
+		}
+		h1 {
+			font-size: 28px;
+
+		}
+		p {
+			font-style: normal;
+			padding: 10px 30px 20px;
+			line-height: 35px;
+		}
+
+		.donate {
+			padding-right: 30px;
+		}
+		.spread-the-word {
+			padding-left: 10px;
+		}
+		@media (max-width: 768px) {
+			flex-direction: column;
+			padding: 0 30px;
+			.big-button {
+			padding: 0 10px;
+			border-radius: 30px;
+			font-size: 8px;
+		}
+			h1 {
+				font-size: 18px;
+
+			}
+			p {
+				font-style: normal;
+				padding: 0px 30px 20px;
+				line-height: 25px;
+				font-size: 14px;
+			}
+			.donate, .spread-the-word {
+				padding-right: 0;
+				padding-bottom: 40px;
+				border-bottom: 1px solid #bdbdbd;
+				padding-top: 30px;
+			}
+			.spread-the-word {
+				border: none;
+			}
+		}
+	}
+}

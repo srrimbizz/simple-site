@@ -1,0 +1,110 @@
+.hollow-button {
+	border: 2px white solid;
+	border-radius: 25px;
+	font-style: normal;
+	font-family: Raleway;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin: 0;
+	line-height: 36px;
+	font-size: 11px;
+	padding: 0 15px;
+	color: white;
+	text-transform: uppercase;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	&:hover, &:active {
+		background-color: white;
+		color: black;
+		border: 2px white solid;
+	}
+
+	&:focus {
+		border: 2px white solid;
+	}
+	@media (max-width: 768px) {
+		font-size: 8px;
+		padding: 0 10px;
+
+	}
+
+}
+
+.big-button {
+	border-radius: 25px;
+	font-style: normal;
+	font-family: Raleway;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: white;
+	background-color: #36b3a8;
+	border: 2px #36b3a8 solid;
+	margin: 0;
+	line-height: 36px;
+	font-size: 15px;
+	cursor: pointer;
+	padding: 3px 30px;
+	text-transform: uppercase;
+	&:hover, &:active {
+		background-color: #36b3a8;
+		opacity: 0.85;
+		border: 2px #36b3a8 solid;
+	}
+
+	&:focus {
+		border: 2px #36b3a8 solid;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 13px;
+		padding: 0 20px;
+
+	}
+}
+
+.full-button {
+	border-radius: 25px;
+	font-style: normal;
+	font-family: Raleway;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: white;
+	background-color: #36b3a8;
+	border: 2px #36b3a8 solid;
+	margin: 0;
+	line-height: 36px;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 0px 20px;
+	text-transform: uppercase;
+	&:hover, &:active {
+		background-color: #36b3a8;
+		opacity: 0.85;
+		border: 2px #36b3a8 solid;
+	}
+	&:focus {
+		border: 2px #36b3a8 solid;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 8px;
+		padding: 0 15px;
+	}
+}
+
+.subscribe-button {
+	font-size: 14px;
+  padding: 1em 2em;
+  background: #000;
+  border: 1px solid black;
+  margin: 0;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+  	font-size: 11px;
+  	padding: 0.85em;
+  }
+}
+
